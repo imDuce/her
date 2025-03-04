@@ -241,7 +241,7 @@ const ScrollerImagePage = () => {
                     </div>
                     <p className="pt-[20px]">
                       A tiny bud of joy, opening her petals to a world full of
-                      wonder
+                      wonder.
                     </p>
                   </div>
                 </div>
