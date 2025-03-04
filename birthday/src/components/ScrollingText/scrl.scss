@@ -137,13 +137,12 @@
       inline-size: 17ch;
       text-wrap: balance;
       font-size: 5.75rem;
-      font-weight: var(--font-weight-7);
       font-family: "Spirax", system-ui;
       font-weight: 700;
       font-style: normal;
       color: white;
       line-height: 2rem;
-      padding-block-end: var(--size-4);
+    //   padding-block-end: var(--size-4);
 
       color: white;
       //   padding-left: 400px ;
@@ -178,7 +177,8 @@
       //   max-inline-size: var(--size-content-1);
       //   line-height: var(--font-lineheight-1);
       //   text-wrap: pretty;
-
+      padding-top: 20px;
+      padding-bottom: 20px;
       color: var(--brand-1);
       font-size: var(--font-size-6);
       font-weight: var(--font-weight-6);
