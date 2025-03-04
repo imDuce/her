@@ -119,10 +119,10 @@
   }
 
   .Content {
-    > * {
-      min-block-size: calc(100dvb - var(--size-9));
-      //   padding-left: 400rem ;
-    }
+    // > * {
+    // //   min-block-size: calc(100dvb - var(--size-9));
+    //   //   padding-left: 400rem ;
+    // }
     & h3 {
       //   inline-size: 13ch;
       //   font-family: "Grape Nuts", cursive;

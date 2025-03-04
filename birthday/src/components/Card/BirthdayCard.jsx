@@ -71,7 +71,7 @@ const BirthdayCard = () => {
             <img src={img13Nobg} alt="" />
           </div>
           <div className="back face">
-            <div className="absolute top-[-60%] left-[10%]">
+            <div className="absolute top-[-60%] left-[10%] text-4xl">
             <h3>Happy Silver Jubliee !</h3>
             </div>
             {/* <p className="peee ech1" data-splotting>
