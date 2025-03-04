@@ -67,7 +67,7 @@
     flex-direction: row; // Ensure the direction is horizontal
     align-items: flex-start; // Align items at the start of the cross axis
     justify-content: space-between; // Add space between the items
-    gap: 800px;
+    gap: 700px;
   }
 
   .Visual {
@@ -134,15 +134,15 @@
       //   line-height: var(--font-lineheight-0);
       //   padding-block-end: var(--size-4);
 
-      max-inline-size: 13ch;
+      inline-size: 17ch;
       text-wrap: balance;
-      font-size: 3.75rem;
+      font-size: 5.75rem;
       font-weight: var(--font-weight-7);
       font-family: "Spirax", system-ui;
-      font-weight: 400;
+      font-weight: 700;
       font-style: normal;
       color: white;
-      line-height: var(--font-lineheight-0);
+      line-height: 2rem;
       padding-block-end: var(--size-4);
 
       color: white;
@@ -159,12 +159,12 @@
       //   font-size: var(--font-size-3);
       //   color: white;
 
-      max-inline-size: var(--size-content-2);
+      inline-size: 20ch;
       /* font-size: var(--font-size-3); */
       font-family: "Srisakdi", system-ui;
       font-weight: 700;
       font-style: normal;
-      font-size: 3.75rem;
+      font-size: 2.75rem;
       color: white;
     }
 
@@ -187,7 +187,7 @@
       font-weight: 700;
       font-style: normal;
       max-inline-size: var(--size-content-1);
-      line-height: var(--font-lineheight-1);
+      line-height: 2rem;
       text-wrap: pretty;
     }
 
