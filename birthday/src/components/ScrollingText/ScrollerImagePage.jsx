@@ -223,7 +223,7 @@ const ScrollerImagePage = () => {
                 </div>
                 <div id="Behold" className="SecondLockup block-center-start">
                   <div className="block gap-3">
-                    <h3 className="text-3xl absolute top-[-5px]">Behold !</h3>
+                    <h3 className="text-3xl pb-[5px]">Behold !</h3>
                     <div className="subhead">
                       The world's sweetest chocolate has arrived!
                     </div>
