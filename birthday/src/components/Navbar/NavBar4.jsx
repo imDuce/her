@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./navbar4.css";
 
 const Navbar = () => {
@@ -74,7 +74,7 @@ const Footer = () => {
     <footer className="footer-container">
       <div className="outer-flex-container ">
         <div className="footer-copyright">
-          <a href="/ourMemories" target="_blank" rel="noopener noreferrer">
+          {/* <a href="/ourMemories" target="_blank" rel="noopener noreferrer">
             <span className="material-icons">group</span>
           </a>
           <a
@@ -90,9 +90,29 @@ const Footer = () => {
             href="/complain"
             target="_blank"
             rel="noopener noreferrer"
+          > */}
+
+
+<Link to="/ourMemories" target="_blank" rel="noopener noreferrer">
+            <span className="material-icons">group</span>
+          </Link>
+          <Link
+            className="footer_link2"
+            to="https://github.com/imDuce/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="material-icons">code</span>
+          </Link>
+          <Link
+            className="footer_link2"
+            to="/complain"
+            target="_blank" 
+            rel="noopener noreferrer"
           >
             <span className="material-icons">error</span>
-          </a>
+            </Link>
+          {/* </a> */}
         </div>
       </div>
     </footer>
