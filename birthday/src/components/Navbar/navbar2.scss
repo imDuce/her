@@ -1,0 +1,167 @@
+// .navbar-container {
+//     --bg-body: #161b22;
+//     --bg-nav: #252e48;
+//     --color-nav: #586069;
+//     --color-nav-hover: #dff9fb;
+//     --color-nav-active: #fff;
+//     font-size: 62.5%;
+//     a {
+//       text-decoration: none;
+//     }
+
+//     position: fixed;
+//     top: 0;
+//     left: 50%;
+//     transform: translateX(-50%);
+//     z-index: 1000;
+//     width: auto;
+
+//     background-color: transparent;
+//     font-family: 'Poppins', sans-serif;
+//     height: 100vh;
+//     width:100%;
+//     overflow: hidden;
+//     display: grid;
+//     place-items: center;
+//   }
+
+// //   *,
+// //   *:before,
+// //   *:after {
+// //     box-sizing: border-box;
+// //     -webkit-box-sizing: border-box;
+// //   }
+
+//   .nav {
+//     position: relative;
+//     display: flex;
+//     background-color: var(--bg-nav);
+//     height: 3rem;
+//     border-radius: 2rem;
+//     filter: url('#goo');
+//     li {
+//       a {
+//         color: var(--color-nav);
+//         width: 12rem;
+//         height: 100%;
+//         display: inline-grid;
+//         place-items: center;
+//         font-size: 3rem;
+//         z-index: 1;
+//         position: relative;
+//         .title {
+//           display: none;
+//           font-size: 1.6rem;
+//         }
+//         &:hover {
+//           color: var(--color-nav-hover);
+//         }
+//         &.nav-item-active {
+//           color: var(--color-nav-active);
+//           transform: translateY(-20%);
+//           font-size: 2.5rem;
+//           transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+//           .title {
+//             display: block;
+//           }
+//         }
+//       }
+//     }
+//     &-indicator {
+//       width: 3rem;
+//       height: 3rem;
+//       border-radius: 50%;
+//       position: absolute;
+//       top: -3.5rem;
+//       left: calc(300px - 45px);
+//       background-color: var(--bg-nav);
+//       transition: left 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+//     }
+//   }
+
+//   #filter-svg {
+//     display: none;
+//   }
+
+// :root {
+//   --bg-body: #161b22;
+//   --bg-nav: #252e48;
+//   --color-nav: #586069;
+//   --color-nav-hover: #dff9fb;
+//   --color-nav-active: #fff;
+// }
+
+// //   *,
+// //   *:before,
+// //   *:after {
+// //     box-sizing: border-box;
+// //     -webkit-box-sizing: border-box;
+// //   }
+
+// .nav-container {
+//   background-color: var(--bg-body);
+//   font-family: "Poppins", sans-serif;
+//   height: auto;
+//   width: auto;
+//   overflow: hidden;
+//   display: grid;
+//   place-items: center;
+
+//   position: fixed;
+//   top: 0;
+//   left: 50%;
+//   transform: translateX(-50%);
+//   z-index: 1000;
+//   width: auto;
+// }
+
+// .nav {
+//   position: relative;
+//   display: flex;
+//   background-color: var(--bg-nav);
+//   height: 8rem;
+//   border-radius: 2rem;
+//   filter: url("#goo");
+//   li {
+//     a {
+//       color: var(--color-nav);
+//       width: 12rem;
+//       height: 100%;
+//       display: inline-grid;
+//       place-items: center;
+//       font-size: 3rem;
+//       z-index: 1;
+//       position: relative;
+//       .title {
+//         display: none;
+//         font-size: 1.6rem;
+//       }
+//       &:hover {
+//         color: var(--color-nav-hover);
+//       }
+//       &.nav-item-active {
+//         color: var(--color-nav-active);
+//         transform: translateY(-20%);
+//         font-size: 4.5rem;
+//         transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+//         .title {
+//           display: block;
+//         }
+//       }
+//     }
+//   }
+//   &-indicator {
+//     width: 9rem;
+//     height: 9rem;
+//     border-radius: 50%;
+//     position: absolute;
+//     top: -3.5rem;
+//     left: calc(300px - 45px);
+//     background-color: var(--bg-nav);
+//     transition: left 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+//   }
+// }
+
+// #filter-svg {
+//   display: none;
+// }

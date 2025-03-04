@@ -1,0 +1,27 @@
+
+.peee {
+    color: blue;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .peee .text-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .peee .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+    transform: translateZ(0); /*for older browsers*/
+    will-change: transform;
+  }
+  

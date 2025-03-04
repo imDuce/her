@@ -1,0 +1,35 @@
+.andaaContainer {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  /* background: white;
+    width: 510px;
+    padding: 50px 80px 80px 80px;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.35); */
+}
+
+.toggle-saying:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+.reveal-translation:hover,
+.replay-animation:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.AnimText {
+  color: pink;
+}
+
+.scroll-container {
+  max-height: 300px; /* Adjust as needed */
+  padding-right: 10px; /* Prevents text cutoff due to scrollbar */
+  margin-bottom: 500px;
+}

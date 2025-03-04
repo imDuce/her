@@ -1,0 +1,115 @@
+.cakeOuterDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: black important;
+
+}
+.cakeBody {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Delius Unicase";
+  background-color: cornsilk;
+}
+.cakeSvg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#draw1 {
+  stroke-dasharray: 2000;
+  -webkit-animation: first 10s linear alternate infinite;
+}
+@-webkit-keyframes first {
+  0% {
+    stroke-dashoffset: 2000;
+  }
+  99% {
+    fill: red;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+#draw2 {
+  stroke-dasharray: 2000;
+  -webkit-animation: second 10s linear alternate infinite;
+  -webkit-animation-delay: 3.5s;
+}
+@-webkit-keyframes second {
+  0% {
+    stroke-dashoffset: 2000;
+    stroke: red;
+  }
+  99% {
+    fill: red;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+#draw3 {
+  stroke-dasharray: 2000;
+  -webkit-animation: third 10s linear alternate infinite;
+  -webkit-animation-delay: 7.5s;
+}
+@-webkit-keyframes third {
+  0% {
+    stroke-dashoffset: 2000;
+    stroke: purple;
+  }
+  99% {
+    fill: purple;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+#draw4 {
+  stroke-dasharray: 2000;
+  -webkit-animation: fourth 10s linear alternate infinite;
+  -webkit-animation-delay: 13.5s;
+}
+@-webkit-keyframes fourth {
+  0% {
+    stroke-dashoffset: 2000;
+    stroke: brown;
+  }
+  99% {
+    fill: brown;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+#draw5 {
+  stroke-dasharray: 2000;
+  -webkit-animation: fifth 10s linear alternate infinite;
+  -webkit-animation-delay: 23s;
+}
+@-webkit-keyframes fifth {
+  0% {
+    stroke-dashoffset: 2000;
+    stroke: brown;
+  }
+  99% {
+    fill: brown;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

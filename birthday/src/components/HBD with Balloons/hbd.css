@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Grape+Nuts&family=Lovers+Quarrel&family=Playwrite+IE:wght@100..400&family=Spirax&family=Srisakdi:wght@400;700&display=swap");
+
+.canv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.canvas-container {
+  transition: opacity 3s ease-in;
+}
+
+.fade-out {
+  opacity: 1;
+}
+
+.fade-in {
+  opacity: 0;
+}
+
+.hello {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.canvas-container {
+  position: relative;
+  transition: opacity 3s ease-in;
+}
+
+.canvas-container .fireworkCanvas {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.cakeKhaao {
+  font-family: "Srisakdi", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/*   
+  .canvas-container .BalloonCanvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2; 
+
+  } */

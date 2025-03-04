@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic);
+
+/* ============================================== Variables */
+:root {
+  --D: 100px; /* Control diameter */
+}
+
+
+/* ============================================== Position */
+.cake {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--D);
+  height: var(--D);
+}
+
+/* ============================================== Base */
+.cake:after {
+  background: rgba(235,227,225,1);
+  border-radius: var(--D);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: var(--D);
+  height: calc(var(--D) / 50);
+}
+
+/* ============================================== Candle */
+.velas {
+  background: rgba(255,255,255,1);
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(var(--D) / 20);
+  height: calc(var(--D) / 6);
+  transform: translate(-50%, -50%);
+}
+
+.velas:after, .velas:before {
+  background: rgba(255,0,0,0.4);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: calc(var(--D) / 45);
+}
+
+.velas:after { top: 25%; }
+.velas:before { top: 45%; }
+
+/* ============================================== Fire */
+.fuego {
+  border-radius: 100%;
+  box-shadow: 0 0 40px 10px rgba(248,233,209,0.2);
+  position: absolute;
+  top: -12px;
+  left: -20%;  /* changes */
+  width: calc(var(--D) / 15);
+  height: calc(var(--D) / 8);
+  transform: translateX(-50%);
+}
+
+.fuego:nth-child(1) { animation: fuego 2s infinite; }
+.fuego:nth-child(2) { animation: fuego 1.5s infinite; }
+.fuego:nth-child(3) { animation: fuego 1s infinite; }
+.fuego:nth-child(4) { animation: fuego 0.5s infinite; }
+.fuego:nth-child(5) { animation: fuego 0.2s infinite; }
+
+/* ============================================== Fire Animation */
+@keyframes fuego {
+  0% {
+    background: rgba(254,248,97,0.5);
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    background: rgba(255,50,0,0.1);
+    transform: translateY(calc(-1 * var(--D) / 5)) scale(0);
+  }
+  100% {
+    background: rgba(254,248,97,0.5);
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ============================================== Frosting */
+.cobertura {
+  background: rgba(236,231,227,1);
+  border-radius: calc(var(--D) / 2);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: calc(var(--D) / 1.8);
+  height: calc(var(--D) / 8);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+
+.cobertura:after,
+.cobertura:before{
+  background:rgba(236,231,227,1);
+  border-radius:calc(var(--D));
+  content:"";
+  position:absolute;
+  width:calc(var(--D) / 20); height:calc(var(--D) / 10);
+}
+
+.cobertura:after{
+  top:calc(var(--D) / 15); right:calc(var(--D) / 7);
+}
+
+.cobertura:before{
+  top:calc(var(--D) / 10); right:calc(var(--D) / 11);
+}
+
+/* ============================================== Cake Base */
+.bizcocho {
+  background: rgba(109,56,38,1);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: calc(var(--D) / 2);
+  height: calc(var(--D) / 3);
+  transform: translateX(-50%);
+}
+
+.bizcocho:after,
+.bizcocho:before{
+  background:rgba(236,231,227,0.6);
+  content:"";
+  position:absolute;
+  width:100%; height:calc(var(--D) / 20);
+}
+
+.bizcocho:after{
+  top:30%; left:0;
+}
+
+.bizcocho:before{
+  top:60%; left:0;
+}
