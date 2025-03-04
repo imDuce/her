@@ -215,7 +215,7 @@ const ScrollerImagePage = () => {
                     <div className="subhead">
                       A luminous soul embarked on its earthly odyssey,
                     </div>
-                    <p>
+                    <p className="pt-[20px]">
                       tiny fingers reaching toward infinite horizons where
                       destiny's constellations twinkled with promise.
                     </p>
@@ -227,7 +227,7 @@ const ScrollerImagePage = () => {
                     <div className="subhead">
                       The world's sweetest chocolate has arrived!
                     </div>
-                    <p>shining with innocence and endless wonder.</p>
+                    <p className="pt-[20px]">shining with innocence and endless wonder.</p>
                   </div>
                 </div>
                 <div
@@ -239,7 +239,7 @@ const ScrollerImagePage = () => {
                     <div className="subhead">
                       With Curious hands and endless questions,
                     </div>
-                    <p>
+                    <p className="pt-[20px]">
                       A tiny bud of joy, opening her petals to a world full of
                       wonder
                     </p>
@@ -254,7 +254,7 @@ const ScrollerImagePage = () => {
                   <div className="block gap-3">
                     <h3 className="text-3xl pb-[20px]">Wanderlust</h3>
                     <div className="subhead">Nomadic spirit</div>
-                    <p>
+                    <p className="pt-[20px]">
                       already yearning beyond boundaries, a soul inscribed with
                       ancient maps leading to undiscovered treasures.
                     </p>
@@ -265,7 +265,7 @@ const ScrollerImagePage = () => {
                   <div className="block gap-3">
                     <h3 className="text-3xl pb-[20px]">Ethereal</h3>
                     <div className="subhead">Weaving invisible threads</div>
-                    <p>
+                    <p className="pt-[20px]">
                       between kindred spirits, creating a tapestry of connection
                       that transcends time and circumstance.
                     </p>
@@ -281,7 +281,7 @@ const ScrollerImagePage = () => {
                     <div className="subhead">
                       Intellect gleamed with phosphorescent brilliance,
                     </div>
-                    <p>
+                    <p className="pt-[20px]">
                       thoughts like fireflies illuminating the darkness with
                       momentary yet eternal light.
                     </p>
@@ -294,7 +294,7 @@ const ScrollerImagePage = () => {
                     <div className="subhead">
                       Nimble fingers weaving ephemeral beauty
                     </div>
-                    <p>
+                    <p className="pt-[20px]">
                       into tangible creation, each stitch a meditation, each
                       pattern a prayer.
                     </p>
@@ -305,7 +305,7 @@ const ScrollerImagePage = () => {
                   <div className="block gap-3">
                     <h3 className="text-3xl pb-[20px]">Sweetness</h3>
                     <div className="subhead">Chocolate-smeared smiles</div>
-                    <p>coupled with an unbounded spirit.</p>
+                    <p className="pt-[20px]">coupled with an unbounded spirit.</p>
                   </div>
                 </div>
 
@@ -316,7 +316,7 @@ const ScrollerImagePage = () => {
                       Eyes that sparkle like stolen candy,
                       {/* can be changed */}
                     </div>
-                    <p> a heart as soft as a teddy.</p>
+                    <p className="pt-[20px]"> a heart as soft as a teddy.</p>
                   </div>
                 </div>
 
@@ -326,7 +326,7 @@ const ScrollerImagePage = () => {
                     <div className="subhead">
                       With a unwavering devotion of your furry companions,
                     </div>
-                    <p>connecting souls through wordless language.</p>
+                    <p className="pt-[20px]">connecting souls through wordless language.</p>
                   </div>
                 </div>
 
@@ -339,7 +339,7 @@ const ScrollerImagePage = () => {
                     <div className="subhead">
                       Collecting sunsets like others collect souvenirs,
                     </div>
-                    <p>holding galaxies of memories from paths traversed.</p>
+                    <p className="pt-[20px]">holding galaxies of memories from paths traversed.</p>
                   </div>
                 </div>
 
@@ -347,7 +347,7 @@ const ScrollerImagePage = () => {
                   <div className="block gap-3">
                     <h3 className="text-3xl pb-[20px]">That Look</h3>
                     <div className="subhead">That One Look .....</div>
-                    <p>Aise na mujhe tum dekho ... 👀</p>
+                    <p className="pt-[20px]">Aise na mujhe tum dekho ... 👀</p>
                   </div>
                 </div>
               </div>
