@@ -211,7 +211,7 @@ const ScrollerImagePage = () => {
               <div className="Content block">
                 <div id="Genesis" className="FirstLockup block-center-start">
                   <div className="block gap-3">
-                    <h3>Genesis</h3>
+                    <h3 className="text-3xl pb-[10px]">Genesis</h3>
                     <div className="subhead">
                       A luminous soul embarked on its earthly odyssey,
                     </div>
@@ -223,7 +223,7 @@ const ScrollerImagePage = () => {
                 </div>
                 <div id="Behold" className="SecondLockup block-center-start">
                   <div className="block gap-3">
-                    <h3 className="text-3xl pb-[5px]">Behold !</h3>
+                    <h3 className="text-3xl pb-[10px]">Behold !</h3>
                     <div className="subhead">
                       The world's sweetest chocolate has arrived!
                     </div>
@@ -235,7 +235,7 @@ const ScrollerImagePage = () => {
                   className="ThirdLockup block-center-start"
                 >
                   <div className="block gap-3">
-                    <h3>Cutest Troublemaker</h3>
+                    <h3 className="text-3xl pb-[10px]">Cutest Troublemaker</h3>
                     <div className="subhead">
                       With Curious hands and endless questions,
                     </div>
@@ -252,7 +252,7 @@ const ScrollerImagePage = () => {
                   className="FourthLockup block-center-start"
                 >
                   <div className="block gap-3">
-                    <h3>Wanderlust</h3>
+                    <h3 className="text-3xl pb-[10px]">Wanderlust</h3>
                     <div className="subhead">Nomadic spirit</div>
                     <p>
                       already yearning beyond boundaries, a soul inscribed with
@@ -263,7 +263,7 @@ const ScrollerImagePage = () => {
 
                 <div id="Ethereal" className="FifthLockup block-center-start">
                   <div className="block gap-3">
-                    <h3>Ethereal</h3>
+                    <h3 className="text-3xl pb-[10px]">Ethereal</h3>
                     <div className="subhead">Weaving invisible threads</div>
                     <p>
                       between kindred spirits, creating a tapestry of connection
@@ -277,7 +277,7 @@ const ScrollerImagePage = () => {
                   className="SixthLockup block-center-start"
                 >
                   <div className="block gap-3">
-                    <h3>Luminescense</h3>
+                    <h3 className="text-3xl pb-[10px]">Luminescense</h3>
                     <div className="subhead">
                       Intellect gleamed with phosphorescent brilliance,
                     </div>
@@ -290,7 +290,7 @@ const ScrollerImagePage = () => {
 
                 <div id="ARTISTRY" className="SeventhLockup block-center-start">
                   <div className="block gap-3">
-                    <h3>Artistry</h3>
+                    <h3 className="text-3xl pb-[10px]">Artistry</h3>
                     <div className="subhead">
                       Nimble fingers weaving ephemeral beauty
                     </div>
@@ -303,7 +303,7 @@ const ScrollerImagePage = () => {
 
                 <div id="SWEETNESS" className="EighthLockup block-center-start">
                   <div className="block gap-3">
-                    <h3>Sweetness</h3>
+                    <h3 className="text-3xl pb-[10px]">Sweetness</h3>
                     <div className="subhead">Chocolate-smeared smiles</div>
                     <p>coupled with an unbounded spirit.</p>
                   </div>
@@ -311,7 +311,7 @@ const ScrollerImagePage = () => {
 
                 <div id="GLOW" className="NinethLockup block-center-start">
                   <div className="block gap-3">
-                    <h3>One Irreplaceable Glow</h3>
+                    <h3 className="text-3xl pb-[10px]">One Irreplaceable Glow</h3>
                     <div className="subhead">
                       Eyes that sparkle like stolen candy,
                       {/* can be changed */}
@@ -322,7 +322,7 @@ const ScrollerImagePage = () => {
 
                 <div id="Cynophile" className="TenthLockup block-center-start">
                   <div className="block gap-3">
-                    <h3>Cynophile</h3>
+                    <h3 className="text-3xl pb-[10px]">Cynophile</h3>
                     <div className="subhead">
                       With a unwavering devotion of your furry companions,
                     </div>
@@ -335,7 +335,7 @@ const ScrollerImagePage = () => {
                   className="EleventhLockup block-center-start"
                 >
                   <div className="block gap-3">
-                    <h3>Wayfarer</h3>
+                    <h3 className="text-3xl pb-[10px]">Wayfarer</h3>
                     <div className="subhead">
                       Collecting sunsets like others collect souvenirs,
                     </div>
@@ -345,7 +345,7 @@ const ScrollerImagePage = () => {
 
                 <div id="look" className="TwelvethLockup block-center-start">
                   <div className="block gap-3">
-                    <h3>That Look</h3>
+                    <h3 className="text-3xl pb-[10px]">That Look</h3>
                     <div className="subhead">That One Look .....</div>
                     <p>Aise na mujhe tum dekho ... 👀</p>
                   </div>
