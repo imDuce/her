@@ -71,9 +71,9 @@ function TextAnim3( ) {
       // " 3. There were a lot of things planned for the day which could have been executed if the reciepient had shown up. ",
       // " 3. Someone needs to learn that not everything is about them and their happiness so if doing something for them makes others happy, they should let them do it.",
       " 4. Promises made by the recipient are almost never kept !!!!!!",
-      " These are not supposed to be personal attack on the recipient, rather just a short synopsis of ho the developer felt !",
+      " These are not supposed to be personal attack on the recipient, rather just a short synopsis of how the developer felt !",
       " DO NOT make it personal",
-      " Thanks for having a read !",
+      " Thanks for reading !",
     ];
 //   const dataText = [input];
 
