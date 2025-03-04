@@ -1,5 +1,6 @@
 import React from "react";
-import "./scroller.css";
+// import "./scroller.css";
+import "./scrl.scss";
 
 import pic1 from "../../assets/kid her/1.jpg";
 import pic2 from "../../assets/kid her/2.jpg";
